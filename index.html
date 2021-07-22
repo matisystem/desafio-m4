@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi página - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./headerComponent/index.css" />
+    <link rel="stylesheet" href="./contactComponent/index.css" />
+    <link rel="stylesheet" href="./footerComponent/index.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./headerComponent/index.js"></script>
+    <script defer src="./contactComponent/index.js"></script>
+    <script defer src="./footerComponent/index.js"></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="home-cont">
+      <div class="header-cont"></div>
+    </div>
+    <template id="home-template">
+      <section class="home">
+        <div class="home__content">
+          <h1 class="home__content__title"></h1>
+          <h2 class="home__content__subtitle"></h2>
+        </div>
+      </section>
+      <section class="about-me">
+        <div class="about-me__content">
+          <img src="" class="about-me__image" />
+          <div class="about-me__subcont">
+            <h2 class="about-me__content__subtitle"></h2>
+            <p class="about-me__content__text"></p>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <section class="my-services">
+      <div class="my-services__subtitle-cont">
+        <h2 class="subtitle">Mis servicios</h2>
+      </div>
+      <div class="my-services__cont">
+        <div class="cont__subcont">
+          <img src="./img/desktop1.svg" alt="" />
+          <h3 class="subcont__subtitle">Hago Cosas</h3>
+          <p class="subcont__text">
+            Tengo conocimientos sobre Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="cont__subcont">
+          <img src="./img/desktop1.svg" alt="" />
+          <h3 class="subcont__subtitle">Y más cosas</h3>
+          <p class="subcont__text">
+            Tengo conocimientos sobre Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="cont__subcont">
+          <img src="./img/desktop1.svg" alt="" />
+          <h3 class="subcont__subtitle">Y más cosas</h3>
+          <p class="subcont__text">
+            Tengo conocimientos sobre Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <div class="form-cont">
+        <h2 class="form-cont__title">Escribime</h2>
+      </div>
+    </section>
+
+    <div class="footer-cont"></div>
+  </body>
+</html>

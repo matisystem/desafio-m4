@@ -1,0 +1,25 @@
+.contact-section {
+  background-color: black;
+  height: 900px;
+}
+@media (min-width: 960px) {
+  .contact-section {
+    background: linear-gradient(180deg, #000000 20%, #875eff 80%);
+  }
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding-top: 75px;
+}
+
+.form-cont .form-cont__title {
+  margin: 0;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
